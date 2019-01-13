@@ -5,7 +5,7 @@
 
 int main(int argc, char *argv[]) {
     struct stat st;	//定义stat类型变量st
-    if (argc != 3)	//如果argv[]中的元素不是4个  
+    if (argc != 3)	//如果argv[]中的元素不是4个 而是3个
 	{
         fprintf(stderr, "Usage: <input filename> <output filename>\n");
         return -1;
